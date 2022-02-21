@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       setSplash(true);
       setTimeout(() => {
         setSplash(false);
-      }, 4000);
+      }, 3000);
     }, [])
     return (
       <IonPage id='main-bg'>
@@ -58,10 +58,10 @@ const Home: React.FC = () => {
           {/* <ExploreContainer name={name} /> */}
             <IonGrid className='background-jumbo'>
               <IonRow>
-                <IonCol className='title-header' size="8">
+                <IonCol className='title-header' style={{textShadow:'3px 3px black'}} size="8">
                   Get Your Joule. <br />Be Happy.
                 </IonCol>
-                <IonCol className='title-home-to-explore' size='4'>
+                <IonCol className='title-home-to-explore' style={{textShadow:'1px 1px black'}} size='4'>
                   <Link to='/'>Explore</Link>
                 </IonCol>
               </IonRow>

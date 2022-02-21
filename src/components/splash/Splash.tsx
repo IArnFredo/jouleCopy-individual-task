@@ -12,7 +12,7 @@ const Splash: React.FC = () => {
             setSplash({
                 fade : 'splash fadeout',
             });
-        }, 3000);
+        }, 2000);
     }, []);
 
     return (
