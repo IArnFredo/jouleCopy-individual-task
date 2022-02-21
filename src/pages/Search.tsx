@@ -1,4 +1,4 @@
-import { IonButton, IonCard, IonCardContent, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonLabel, IonPage, IonRow, IonSearchbar, IonSegment, IonSegmentButton, IonToolbar } from "@ionic/react";
+import { IonButton, IonCard, IonCardContent, IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonSearchbar, IonToolbar } from "@ionic/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import './Search.css';
