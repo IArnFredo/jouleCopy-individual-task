@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       setSplash(true);
       setTimeout(() => {
         setSplash(false);
-      }, 3000);
+      }, 5000);
     }, [])
     return (
       <IonPage id='main-bg'>

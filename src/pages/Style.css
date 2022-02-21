@@ -4,7 +4,7 @@ ion-searchbar ion-icon {
   }
 
 ion-content{
-  --background: rgb(238, 237, 237);
+  --background: #edecea
 }
 .background-jumbo{
   background: url('../images/food.jpg')no-repeat;
@@ -113,7 +113,6 @@ ion-card{
 
 ion-fab-button{
   --background: white !important;
-  --color: black !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,6 +136,7 @@ ion-fab-button{
 
 .fab-rectangle{
   --border-radius: 20px;
+  --color:#e56e56 !important;
   max-width: unset;
   min-width: unset;
   height: 50px;
@@ -147,6 +147,7 @@ ion-fab-button{
   text-align: center;
   left: 200px;
 }
+
 .pic{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
