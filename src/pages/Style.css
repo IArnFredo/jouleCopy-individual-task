@@ -1,0 +1,176 @@
+ion-searchbar ion-icon {
+    right: 16px !important;
+    left: auto !important;
+  }
+
+ion-content{
+  --background: rgb(238, 237, 237);
+}
+.background-jumbo{
+  background: url('../images/food.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 50%;
+}
+
+#without-line{
+  font-size: 14px;
+  margin: 10px 0px 10px 0px;
+}
+
+#without-line a{
+  color: black !important;
+  text-decoration: none !important;
+}
+
+#search-icon{
+  margin: 0px 0px 0px 10px;
+  font-size: 20px;
+}
+
+.left-lost{
+  /* make text on right, responsive and a link to right */
+  text-align: right;
+  margin: 0px 0px 0px 0px;
+}
+
+#line-between {
+  overflow: hidden;
+  text-align: center;
+  font-size: 10px;
+  color: #b2b1af;
+}
+
+#line-between:before,
+#line-between:after {
+  background-color: #b2b1af;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+#line-between:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+#line-between:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.title-header{
+  position: absolute;
+  font-size: 30px;
+  bottom: 50%;
+  left: 2%;
+  color: var(--ion-text-color-jumbotron);
+  font-weight: bold;
+}
+
+.title-home-to-explore{
+  position: absolute;
+  bottom: 50%;
+  right: -15%;
+  font-size: 14px;
+  color: var(--ion-text-color-jumbotron);
+  font-weight: bold;
+}
+.title-home-to-explore a{
+  color: white;;
+}
+
+.center-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fcdad1 !important;
+  color: #e56e56 !important;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+ion-card{
+ width: 100%;
+ height: 100%;
+ margin-inline: 0px;
+}
+
+ion-fab-button{
+  --background: white !important;
+  --color: black !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.floating{
+  margin-inline-end: 0px !important;
+}
+
+.formenu{
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 15px;
+}
+
+.without-radius{
+  --border-radius: 20px !important;
+  text-transform: none;
+}
+
+.fab-rectangle{
+  --border-radius: 20px;
+  max-width: unset;
+  min-width: unset;
+  height: 50px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 200px;
+}
+.pic{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 141px;
+  width:100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.card2{
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 140px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.padding-card2{
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+}
+
+.display-center2{
+    display: flex;
+    align-items: center;
+}

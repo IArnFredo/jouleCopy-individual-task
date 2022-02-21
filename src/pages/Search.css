@@ -1,0 +1,37 @@
+ion-searchbar{
+    --box-shadow: none !important;
+}
+
+.iconleft ion-icon{
+    right: auto !important;
+    left: auto !important;
+}
+
+link{
+    text-decoration: none !important;
+}
+
+ion-button{
+    text-decoration: none;
+    text-transform: none;
+}
+
+.card-change{
+    justify-content: center;
+    align-items: center;
+}
+
+.circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #fcdad1 !important;
+    color: #e56e56 !important;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+ion-label{
+    text-transform: none;
+}

@@ -1,0 +1,18 @@
+.splash{
+    background:url('../../../public/assets/icon/splash.png') no-repeat center center fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99999999;
+}
+
+.fadeout{
+    opacity: 0;
+    transition: opacity 1s ease;
+}
